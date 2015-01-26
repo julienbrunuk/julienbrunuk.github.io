@@ -1,4 +1,5 @@
-![CodeClimate Badge](https://img.shields.io/codeclimate/github/julienbrunuk/julienbrunuk.github.io.svg "CodeClimate")
+[![Code Climate](https://codeclimate.com/github/julienbrunuk/julienbrunuk.github.io/badges/gpa.svg)](https://codeclimate.com/github/julienbrunuk/julienbrunuk.github.io)
+
 # julienbrunuk.github.io
 Pages for julienbrun.co.uk
 
