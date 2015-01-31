@@ -1,14 +1,23 @@
 
 html{
     background-image: url('../images/welcome.jpg');
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     background-repeat: none;
 }
 body{
     background-color: rgba(0,0,0,0);
+}
+
+.split3{
+    h1,h2,h3{
+        color: #fff;
+        width: 100%;
+        text-align: center;
+    }
+    margin-bottom: 5.8em;
 }
 .animated {
   -webkit-animation-duration: 1s;
@@ -66,11 +75,13 @@ body{
     h1{
         font-size: 3.3em;
     }
-    p{
+}
+
+    .welcome p, .split3 p, ul li, .introt{
         text-align: left;
         font-size: 1.5em;
-        max-width: 960px;
-        padding: 1em;
+        //max-width: 960px;
+        padding: 1em 1em 0 1em;
         color: rgba(255,255,255,0.8);
         span.important, a{
             color: rgba(255,255,255,1);
@@ -80,6 +91,10 @@ body{
             text-decoration: underline;
         }
     }
+    
+p.introt{
+    width: 100%;
+    text-align: center;
 }
 
 footer{
@@ -95,4 +110,16 @@ footer{
     width: 100%;
     text-align: center;
     
+}
+
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:center;
+    /* inline-block space fix */
+    margin-right:-4px;
 }
