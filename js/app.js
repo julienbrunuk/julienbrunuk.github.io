@@ -1,7 +1,7 @@
 function resizetovp() {
-    var height = $(window).height();
+    var height = $('body').height();
     height = parseInt(height) + 'px';
-    $('body').css('height',height);
+    $('.welcomewrapper').css('height',height);
 }
 
 $(document).ready(function() {
