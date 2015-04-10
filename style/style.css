@@ -7,7 +7,7 @@ html {
   background-repeat: none;
 }
 
-canvas #spiders{
+canvas#spiders{
   position: fixed;
   top: 0;
   left: 0;
